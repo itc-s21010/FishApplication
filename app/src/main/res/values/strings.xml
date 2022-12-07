@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FishApplication</string>
+    <string name="CameraStart">カメラ起動</string>
+    <string name="FishLibrary">魚図鑑</string>
 </resources>
