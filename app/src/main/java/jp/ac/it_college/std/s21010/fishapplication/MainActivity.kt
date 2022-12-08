@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         title = "魚図鑑"
         binding.pictorialbtn.setOnClickListener {
-            val intent = Intent(this, pictorialbookActivity::class.java)
+            val intent = Intent(this, titleFragment::class.java)
             startActivity(intent)
         }
     }

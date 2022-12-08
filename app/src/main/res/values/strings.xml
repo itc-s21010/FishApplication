@@ -2,4 +2,7 @@
     <string name="app_name">FishApplication</string>
     <string name="CameraStart">カメラ起動</string>
     <string name="FishLibrary">魚図鑑</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pictorial_book">魚図鑑へ</string>
 </resources>
