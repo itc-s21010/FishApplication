@@ -11,10 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        title = "魚図鑑"
-        binding.pictorialbtn.setOnClickListener {
-            val intent = Intent(this, titleFragment::class.java)
+        title = getString(R.string.pictorial_book)
+
+
+        binding.toPictorial.setOnClickListener {
+            val intent = Intent(this, PictorialBookActivity::class.java)
             startActivity(intent)
         }
+
     }
 }
