@@ -5,4 +5,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pictorial_book">魚図鑑へ</string>
+    <string name="input_name">ここに名前を表示</string>
 </resources>
